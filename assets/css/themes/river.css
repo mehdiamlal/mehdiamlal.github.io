@@ -1,0 +1,28 @@
+/* Hugo Blox color theme: DEEP BLUE GRAY */
+:root {
+  /* Primary Palette — Deep Blue */
+  --hb-primary-50-rgb: 240 245 255;
+  --hb-primary-100-rgb: 220 232 255;
+  --hb-primary-200-rgb: 191 212 255;
+  --hb-primary-300-rgb: 147 180 255;
+  --hb-primary-400-rgb: 96 139 255;
+  --hb-primary-500-rgb: 59 108 212; /* Main brand blue */
+  --hb-primary-600-rgb: 46 90 184;
+  --hb-primary-700-rgb: 38 72 146;
+  --hb-primary-800-rgb: 30 58 112;
+  --hb-primary-900-rgb: 25 47 89;
+  --hb-primary-950-rgb: 15 30 56;
+
+  /* Secondary Palette — Slate Gray */
+  --hb-secondary-50-rgb: 248 250 252;
+  --hb-secondary-100-rgb: 241 245 249;
+  --hb-secondary-200-rgb: 226 232 240;
+  --hb-secondary-300-rgb: 203 213 225;
+  --hb-secondary-400-rgb: 148 163 184;
+  --hb-secondary-500-rgb: 100 116 139;
+  --hb-secondary-600-rgb: 71 85 105;
+  --hb-secondary-700-rgb: 51 65 85;
+  --hb-secondary-800-rgb: 30 41 59;
+  --hb-secondary-900-rgb: 15 23 42;
+  --hb-secondary-950-rgb: 3 6 23;
+}
