@@ -10,11 +10,11 @@ first_name: Mehdi
 last_name: Amlal
 
 # Pronouns (optional)
-pronouns: he/him
+# pronouns: he/him
 
 # Status emoji
-status:
-  icon: 🚀
+# status:
+#   icon: 🚀
 
 # Is this the primary user of the site?
 superuser: true
@@ -78,7 +78,7 @@ work:
     date_start: 2019-06-01
     date_end: 2019-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Conducting research on domain adaptation and model merging.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
