@@ -148,8 +148,8 @@ work:
 #       Recognized for contributions to scaling laws in deep learning.
 ---
 
-I am a second-year master's student at Sapienza Univeristy of Rome, and a research intern at GLADIA Research Lab and The Good AI Lab.
+I am a second-year master's student at Sapienza University of Rome, and a research intern at GLADIA Research Lab and The Good AI Lab.
 
-My current research activity is at the intersection of model merging, and domain adaptation, aiming to improve how deep learning models generalize without more training. I also enjoy exploring other topics like computer vision or multimodal learning, and I get genuinely excited every time I come across an unfamiliar topic or a new project that offers a lot to learn.
+My current research activity is at the intersection of model merging, and domain adaptation, aiming to improve how deep learning models generalize without additional training. I also enjoy exploring other topics like computer vision or multimodal learning, and I get genuinely excited every time I come across an unfamiliar topic or a new project that offers a lot to learn.
 
 When I am not reading papers or training models, I enjoy social activities like weekend trips with friends, movie nights or trying new restaurants.
