@@ -62,7 +62,7 @@ education:
     summary: |
       GPA: 4.0/4.0
 
-      Specialized in machine learning and robotics.
+      Specialized in Artificial Intelligence.
   - area: BSc Computer Science
     institution: University of Turin
     # date_start: 2009-09-01
@@ -75,8 +75,8 @@ work:
     company_name: The Good AI Lab
     company_url: 'https://thegoodailab.org/'
     company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    # date_start: 2019-06-01
+    # date_end: 2019-12-31
     summary: |
       Conducting research on domain adaptation and model merging.
 
