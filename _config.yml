@@ -1,6 +1,6 @@
 # Site settings. Edit these, then push. Leave a link empty ("") to hide it.
 title: Mehdi Amlal
-description: PhD researcher in 3D perception and world models.
+description: Mehdi Amlal, PhD researcher at the University of Bologna and AMD Silo AI working on physical AI.
 url: "https://mehdiamlal.github.io"
 baseurl: ""
 
@@ -10,10 +10,26 @@ links:
   linkedin: "https://www.linkedin.com/in/mehdiamlal/"
   scholar: ""    # add your Google Scholar URL after your first paper
 
+# For search engines and link previews (jekyll-seo-tag).
+# Add new profiles (e.g. Scholar) to `social.links` too.
+author: Mehdi Amlal
+social:
+  name: Mehdi Amlal
+  links:
+    - https://github.com/mehdiamlal
+    - https://www.linkedin.com/in/mehdiamlal/
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/profile.png
+
 permalink: /blog/:title/
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - README.md

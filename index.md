@@ -1,5 +1,7 @@
 ---
 layout: home
+seo:
+  type: Person
 ---
 
 I am a PhD researcher at the [University of Bologna](https://cvlab.unibo.it) and AMD Silo AI, as part of the World Model Foundry. I am advised by [Matteo Poggi](https://mattpoggi.github.io) and [Fabio Tosi](https://fabiotosi92.github.io) at UniBO, and by [Pier Luigi Dovesi](https://dovesi.dev) at AMD.
