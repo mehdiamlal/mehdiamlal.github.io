@@ -1,0 +1,7 @@
+# Newest first. The Publications section appears on the home page
+# as soon as there is at least one entry. Remove the "#" to use the example.
+#
+# - title: "Paper Title"
+#   authors: "**Mehdi Amlal**, Co-Author, Matteo Poggi"
+#   venue: "CVPR 2027"
+#   link: "https://arxiv.org/abs/xxxx.xxxxx"

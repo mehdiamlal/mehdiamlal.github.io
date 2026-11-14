@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<header class="intro">
+  <div class="bio">
+    <h1>{{ site.title }}</h1>
+    {{ content }}
+    <p class="links">
+      {% if site.links.email != "" %}{% assign mail = site.links.email | split: "@" %}<a href="#" data-user="{{ mail[0] }}" data-domain="{{ mail[1] }}" onclick="this.href='mailto:'+this.dataset.user+'@'+this.dataset.domain">Email</a>{% endif %}
+      {% if site.links.scholar != "" %}<a href="{{ site.links.scholar }}">Scholar</a>{% endif %}
+      {% if site.links.github != "" %}<a href="{{ site.links.github }}">GitHub</a>{% endif %}
+      {% if site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}">LinkedIn</a>{% endif %}
+    </p>
+  </div>
+  <img src="{{ '/images/profile.png' | relative_url }}" alt="Photo of {{ site.title }}">
+</header>
+
+{% if site.data.news.size > 0 %}
+<h2>News</h2>
+<ul class="dated">
+  {% for item in site.data.news %}
+  <li><span class="date">{{ item.date }}</span> <span>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if site.data.publications.size > 0 %}
+<h2>Publications</h2>
+<ul class="pubs">
+  {% for pub in site.data.publications %}
+  <li>
+    <strong>{% if pub.link %}<a href="{{ pub.link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</strong><br>
+    {{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}<br>
+    <em>{{ pub.venue }}</em>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if site.posts.size > 0 %}
+<h2>Writing</h2>
+<ul class="dated">
+  {% for post in site.posts %}
+  <li><span class="date">{{ post.date | date: '%b %Y' }}</span> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}

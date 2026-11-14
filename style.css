@@ -1,0 +1,79 @@
+body {
+  font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', serif;
+  font-size: 17px;
+  line-height: 1.55;
+  color: #222;
+  background: #fff;
+  margin: 0;
+}
+
+main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+main { padding-top: 48px; }
+
+footer {
+  padding-top: 48px;
+  padding-bottom: 32px;
+  font-size: 14px;
+  color: #999;
+  text-align: right;
+}
+
+a { color: #1772d0; text-decoration: none; }
+a:hover { color: #f09228; }
+
+h1 { font-size: 34px; font-weight: normal; text-align: center; margin: 0 0 16px; }
+h2 { font-size: 23px; font-weight: normal; margin: 40px 0 12px; }
+
+/* Header: bio on the left, photo on the right */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.intro .bio { flex: 1; }
+.intro img {
+  width: 35%;
+  max-width: 260px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.links { text-align: center; margin-top: 18px; }
+.links a:not(:first-child)::before {
+  content: "/";
+  display: inline-block;
+  margin: 0 8px;
+  color: #999;
+}
+
+/* News and Writing lists */
+ul.dated, ul.pubs { list-style: none; padding: 0; margin: 0; }
+ul.dated li { display: flex; gap: 16px; margin-bottom: 6px; }
+ul.dated .date { flex: 0 0 80px; color: #888; }
+ul.pubs li { margin-bottom: 18px; }
+
+/* Blog posts */
+.back { margin-top: 0; }
+article { max-width: 680px; }
+article h1 { text-align: left; margin-bottom: 4px; }
+article .date { color: #888; margin-top: 0; }
+article img { max-width: 100%; }
+article pre { background: #f5f5f5; padding: 12px; overflow-x: auto; font-size: 14px; }
+article code { font-size: 15px; }
+
+@media (max-width: 640px) {
+  .intro { flex-direction: column-reverse; gap: 16px; }
+  .intro img { width: 55%; }
+}
+
+@media (prefers-color-scheme: dark) {
+  body { color: #ddd; background: #161616; }
+  a { color: #6ea8fe; }
+  article pre { background: #222; }
+}
