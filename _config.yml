@@ -17,5 +17,6 @@ plugins:
 
 exclude:
   - README.md
+  - NOTES.md
   - Gemfile
   - Gemfile.lock

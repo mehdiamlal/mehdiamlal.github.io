@@ -3,3 +3,6 @@ _site/
 .sass-cache/
 .DS_Store
 Gemfile.lock
+
+# Local notes (not committed)
+NOTES.md
