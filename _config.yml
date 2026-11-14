@@ -1,7 +1,7 @@
 # Site settings. Edit these, then push. Leave a link empty ("") to hide it.
 title: Mehdi Amlal
 description: PhD researcher in 3D perception and world models.
-url: ""          # e.g. https://heymehdi.github.io
+url: "https://mehdiamlal.github.io"
 baseurl: ""
 
 links:
