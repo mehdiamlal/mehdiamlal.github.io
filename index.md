@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Mehdi Amlal
 seo:
   type: Person
 ---

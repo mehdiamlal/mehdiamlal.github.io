@@ -1,5 +1,6 @@
 # Site settings. Edit these, then push. Leave a link empty ("") to hide it.
 title: Mehdi Amlal
+tagline: PhD researcher in Physical AI   # shown in the browser tab and Google title
 description: Mehdi Amlal, PhD researcher at the University of Bologna and AMD Silo AI working on physical AI.
 url: "https://mehdiamlal.github.io"
 baseurl: ""
